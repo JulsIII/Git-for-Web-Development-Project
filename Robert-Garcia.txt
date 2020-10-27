@@ -90,7 +90,10 @@ Codepen Link of RJG Version: https://codepen.io/JulesIII/pen/MWemNGe?editors=110
 		-border:1px dotted #000000;
 	
     29. How do I select everything on the page? 
-		- using "*"
+		- using "*"  
+		*{
+		stuff;
+		}
 	
     30. How do I write a comment in CSS?
 		- <!-- stuff -->
@@ -121,16 +124,16 @@ Codepen Link of RJG Version: https://codepen.io/JulesIII/pen/MWemNGe?editors=110
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-		-
+		-Inline elements do not cause line-breaks. This makes it good for use inside of other elements. Block elements make line breaks. 
 	
     2. What happens when an element is positioned absolutely? 
-		-
+		-As opposed to Relative positioning, Absolute Positioning fixes the object in-place, EVEN if the window is resized or the page changes dimensions. In relative positioning objects may move according to the page dimensions. 
 	
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-		-
+		-Using % instead of px, or playing with the image stretching properties or a mix of both. 
 	
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-		-
+		-<p>, <div>, <section>.  &   <span>,<strong>  & <button>
 	
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-		-
+		-Box model is like an easier to place table(s) with table data cells positioned absolutely or relatively to provide the desired effect. To respect the width or a width of a block you should use a block within a block, utilizing either type of positioning to get the desired effect. Before the block model there was the table model and the block model is simply better. 
