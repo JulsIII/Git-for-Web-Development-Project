@@ -102,7 +102,7 @@ Codepen Link of RJG Version: https://codepen.io/JulesIII/pen/MWemNGe?editors=110
 		-it will display your current directory at the start of each prompt. Cd NewDir = Dir Change!
 	
     32. Using the command line - how do I see a list of files/folders in my current folder?
-		-dir
+		-ls
 	
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
 		-rm , careful because there is no undo.
